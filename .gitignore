@@ -1,0 +1,6 @@
+.directory
+node_modules/
+build/*
+!build/*.gitkeep
+*.log
+*.http
