@@ -1,16 +1,25 @@
 {
-
   "compilerOptions": {
-
-    "target": "es2015",
     "module": "commonjs",
-    "resolveJsonModule": true,
-    "outDir": "./build",
-    "rootDir": "./",
-    "strict": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
-
-  }
-
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "removeComments": true,
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/types/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }

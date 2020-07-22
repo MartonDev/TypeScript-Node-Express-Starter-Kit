@@ -1,0 +1,14 @@
+type Query {
+
+  me: User
+  register(name: String!): User
+  users: [User]
+  
+}
+
+type User {
+
+  id: ID
+  name: String
+
+}

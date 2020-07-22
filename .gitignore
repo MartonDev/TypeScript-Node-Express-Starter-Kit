@@ -1,6 +1,8 @@
 .directory
 node_modules/
-build/*
-!build/*.gitkeep
+dist/*
+!dist/.gitkeep
 *.log
 *.http
+.vscode
+.idea
